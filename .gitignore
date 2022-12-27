@@ -4,6 +4,7 @@
 ### Eclipse ###
 .classpath
 .gitattributes
+.gitignore
 .project
 .metadata
 bin/
