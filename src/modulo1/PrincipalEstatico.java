@@ -1,4 +1,11 @@
-// Programa 01.08
+/* Programa 01.08
+ * 
+ * Os atributos podem ser estáticos ou não estáticos.
+ * Podem ser acessados por meio de um obejto, mas, considerando as boas práticas,
+ * devem ser acessados por meio da classe.
+ * Por exemplo: ContaCorrente.cpf = 0.004;
+ * 
+ * */
 package modulo1;
 
 // Exemplo do uso de atributo estático
