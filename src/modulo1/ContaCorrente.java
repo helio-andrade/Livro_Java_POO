@@ -7,6 +7,7 @@ public class ContaCorrente {
 	int agencia;
 	double saldo;
 	String nome;
+	static double cpmf; // atrbuto estático
 	
 	public int getConta() {
 		return conta;
@@ -42,7 +43,14 @@ public class ContaCorrente {
 
 	public void efetuarSaque(double d) {
 		System.out.println("Saque efetuado com sucesso!");
-		
+	}
+	
+	public double getCpmf(){
+		return cpmf;
+	}
+	
+	public void setCpmf(double cpmf) {
+		ContaCorrente.cpmf = cpmf;
 	}
 
 }	// Nenhuma linha de código poderá ser definida abaixo deste símbolo de fecha chaves
