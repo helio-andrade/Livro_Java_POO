@@ -1,4 +1,4 @@
-// Programa 01.02
+// Programa 01.01
 package modulo1;
 	// Imprime na tela os argumentos recebidos e a frase "Hello, World"
 public class HelloWorld {

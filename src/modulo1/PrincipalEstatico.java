@@ -1,7 +1,8 @@
 /* Programa 01.08
  * 
  * Os atributos podem ser estáticos ou não estáticos.
- * Podem ser acessados por meio de um obejto, mas, considerando as boas práticas,
+ * Podem ser acessados por meio de um obejto, 
+ * mas, considerando as boas práticas,
  * devem ser acessados por meio da classe.
  * Por exemplo: ContaCorrente.cpf = 0.004;
  * 
@@ -25,20 +26,28 @@ public class PrincipalEstatico {
 		System.out.println("\u00A9 Sun Microsystems, Inc.");
 		
 		// Atributo estático sendo acessado por um objeto
-		System.out.println("objeto1 atributo estático: " + objeto1.cpmf);
-		System.out.println("objeto1 atributo não-estático: " + objeto1.saldo);
+		System.out.println("objeto1 atributo estático: " 
+							+ objeto1.cpmf);
+		System.out.println("objeto1 atributo não-estático: " 
+							+ objeto1.saldo);
 		
 		// Atributo estático sendo acessado por um objeto
-		System.out.println("objeto2 atributo estatico: " + objeto2.cpmf);
-		System.out.println("objeto2 atributo nao-estatico: " + objeto2.saldo);
+		System.out.println("objeto2 atributo estatico: " 
+							+ objeto2.cpmf);
+		System.out.println("objeto2 atributo nao-estatico: " 
+							+ objeto2.saldo);
 		objeto2.cpmf = 0.0010;
-		System.out.println("objeto1 atributo estatico: " + objeto1.cpmf);
-		System.out.println("objeto1 atributo nao-estatico: " + objeto1.saldo);
+		System.out.println("objeto1 atributo estatico: " 
+							+ objeto1.cpmf);
+		System.out.println("objeto1 atributo nao-estatico: " 
+							+ objeto1.saldo);
 		
 		// Acessando atributo estático por meio de uma classe
-		System.out.println("objeto1 atributo estatico. Acessado pelo nome da classe: " 
+		System.out.println("objeto1 atributo estatico." 
+							+ " Acessado pelo nome da classe: " 
 							+ ContaCorrente.cpmf);
-		System.out.println("objeto1 atributo não estatico: " + objeto1.saldo);
+		System.out.println("objeto1 atributo não estatico: " 
+							+ objeto1.saldo);
 	}
 
 }
