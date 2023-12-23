@@ -5,7 +5,7 @@ package modulo1;
 import	java.util.Date;
 
 public class ExemploMetodo {
-	private int meuAtributo = 0; // pode ser usada por qualquer método
+	private int meuAtributo = 0; // pode ser usado por qualquer método
 	
 	public static void main(String[] args) {
 		Date today = new Date();
